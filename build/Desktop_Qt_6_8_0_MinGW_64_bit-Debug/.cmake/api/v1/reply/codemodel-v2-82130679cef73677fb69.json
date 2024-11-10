@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9b59c4c7bfa5250139ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BankingAppReplica",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BankingAppReplica::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BankingAppReplica-Debug-2ea2d3b8a13de57e7dc3.json",
+					"name" : "BankingAppReplica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BankingAppReplica_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BankingAppReplica_autogen-Debug-ae8a97bfd4b9d6692e7b.json",
+					"name" : "BankingAppReplica_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BankingAppReplica_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BankingAppReplica_autogen_timestamp_deps-Debug-9dac8cd9ab974aab1821.json",
+					"name" : "BankingAppReplica_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/BankingAppReplica/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "D:/BankingAppReplica"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
