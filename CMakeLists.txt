@@ -25,6 +25,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(BankingAppReplica
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        sendmoney.h sendmoney.cpp sendmoney.ui
+        depositmoney.h depositmoney.cpp depositmoney.ui
+        debitcard.h debitcard.cpp debitcard.ui
     )
 else()
     if(ANDROID)

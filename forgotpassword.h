@@ -14,6 +14,14 @@ class forgotPassword : public QDialog
 public:
     explicit forgotPassword(QWidget *parent = nullptr);
     ~forgotPassword();
+    QString getEmail();
+    QString getPassword();
+    QString getConfirmedPassword();
+
+
+private slots:
+    void changePassword();
+
 
 private:
     Ui::forgotPassword *ui;

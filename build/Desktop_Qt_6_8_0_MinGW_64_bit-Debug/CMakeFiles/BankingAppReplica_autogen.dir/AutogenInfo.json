@@ -302,6 +302,18 @@
 			null
 		],
 		[
+			"D:/BankingAppReplica/debitcard.h",
+			"MU",
+			"EWIEGA46WW/moc_debitcard.cpp",
+			null
+		],
+		[
+			"D:/BankingAppReplica/depositmoney.h",
+			"MU",
+			"EWIEGA46WW/moc_depositmoney.cpp",
+			null
+		],
+		[
 			"D:/BankingAppReplica/forgotpassword.h",
 			"MU",
 			"EWIEGA46WW/moc_forgotpassword.cpp",
@@ -311,6 +323,12 @@
 			"D:/BankingAppReplica/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/BankingAppReplica/sendmoney.h",
+			"MU",
+			"EWIEGA46WW/moc_sendmoney.cpp",
 			null
 		]
 	],
@@ -388,9 +406,12 @@
 	"SOURCES" : 
 	[
 		[ "D:/BankingAppReplica/accountcreationbox.cpp", "MU", null ],
+		[ "D:/BankingAppReplica/debitcard.cpp", "MU", null ],
+		[ "D:/BankingAppReplica/depositmoney.cpp", "MU", null ],
 		[ "D:/BankingAppReplica/forgotpassword.cpp", "MU", null ],
 		[ "D:/BankingAppReplica/main.cpp", "MU", null ],
-		[ "D:/BankingAppReplica/mainwindow.cpp", "MU", null ]
+		[ "D:/BankingAppReplica/mainwindow.cpp", "MU", null ],
+		[ "D:/BankingAppReplica/sendmoney.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

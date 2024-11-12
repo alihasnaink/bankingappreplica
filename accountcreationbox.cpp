@@ -18,12 +18,25 @@ accountCreationBox::accountCreationBox(QWidget *parent)
     QPixmap pix("D:/BankingAppReplica/logo.png");
     ui->logo->setPixmap(pix);
     connect(ui->submitButton, &QPushButton::clicked, this, &accountCreationBox::submitAccount);
-
 }
 
 accountCreationBox::~accountCreationBox()
 {
     delete ui;
+}
+
+bool accountCreationBox::isUsernameOrEmailTaken(const QString &username, const QString &email) {
+    QSqlQuery query;
+    query.prepare("SELECT COUNT(*) FROM userdata WHERE username = :username OR email = :email");
+    query.bindValue(":username", username);
+    query.bindValue(":email", email);
+
+    if (query.exec() && query.next()) {
+        return query.value(0).toInt() > 0;
+    } else {
+        QMessageBox::warning(this, "Database Error", "Failed to check username and email uniqueness: " + query.lastError().text());
+        return true;
+    }
 }
 
 QString accountCreationBox::getFullname()  {
@@ -60,13 +73,16 @@ void accountCreationBox::submitAccount()
     QString newAccountType = getAccountType();
     QString newCardType = getCardType();
 
-    // Validate inputs (this is just an example, add more checks as needed)
-    if (newUsername.isEmpty() || newPassword.isEmpty() || newEmail.isEmpty()) {
+    if (newUsername.isEmpty() || newPassword.isEmpty() || newEmail.isEmpty()) { // need to add more validations here
         QMessageBox::warning(this, "Input Error", "Please fill in all the required fields.");
         return;
     }
 
-    // Insert data into the database
+    if (isUsernameOrEmailTaken(newUsername, newEmail)) {
+        QMessageBox::warning(this, "Account Creation", "Username or email is already in use.");
+        return;
+    }
+
     QSqlQuery query(QSqlDatabase::database());
     query.prepare("INSERT INTO userdata (account_number, fullname, username, password, email, account_type, card_type, balance) "
                   "VALUES (:accountNumber, :fullname, :username, :password, :email, :accountType, :cardType, :balance)");
@@ -83,6 +99,6 @@ void accountCreationBox::submitAccount()
         QMessageBox::warning(this, "Account Creation", "Account creation failed: " + query.lastError().text());
     } else {
         QMessageBox::information(this, "Account Creation", "Account created successfully!");
-        accept();  // Close the dialog after successful submission
+        accept();  //
     }
 }

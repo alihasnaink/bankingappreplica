@@ -89,6 +89,30 @@ build CMakeFiles/BankingAppReplica.dir/forgotpassword.cpp.obj: CXX_COMPILER__Ban
   OBJECT_DIR = CMakeFiles\BankingAppReplica.dir
   OBJECT_FILE_DIR = CMakeFiles\BankingAppReplica.dir
 
+build CMakeFiles/BankingAppReplica.dir/sendmoney.cpp.obj: CXX_COMPILER__BankingAppReplica_unscanned_Debug D$:/BankingAppReplica/sendmoney.cpp || cmake_object_order_depends_target_BankingAppReplica
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\BankingAppReplica.dir\sendmoney.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/BankingAppReplica/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/BankingAppReplica_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\BankingAppReplica.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankingAppReplica.dir
+
+build CMakeFiles/BankingAppReplica.dir/depositmoney.cpp.obj: CXX_COMPILER__BankingAppReplica_unscanned_Debug D$:/BankingAppReplica/depositmoney.cpp || cmake_object_order_depends_target_BankingAppReplica
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\BankingAppReplica.dir\depositmoney.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/BankingAppReplica/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/BankingAppReplica_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\BankingAppReplica.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankingAppReplica.dir
+
+build CMakeFiles/BankingAppReplica.dir/debitcard.cpp.obj: CXX_COMPILER__BankingAppReplica_unscanned_Debug D$:/BankingAppReplica/debitcard.cpp || cmake_object_order_depends_target_BankingAppReplica
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\BankingAppReplica.dir\debitcard.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/BankingAppReplica/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/BankingAppReplica_autogen/include -isystem C:/Qt/6.8.0/mingw_64/include/QtCore -isystem C:/Qt/6.8.0/mingw_64/include -isystem C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.8.0/mingw_64/include/QtGui -isystem C:/Qt/6.8.0/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\BankingAppReplica.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankingAppReplica.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BankingAppReplica
@@ -97,7 +121,7 @@ build CMakeFiles/BankingAppReplica.dir/forgotpassword.cpp.obj: CXX_COMPILER__Ban
 #############################################
 # Link the executable BankingAppReplica.exe
 
-build BankingAppReplica.exe: CXX_EXECUTABLE_LINKER__BankingAppReplica_Debug CMakeFiles/BankingAppReplica.dir/BankingAppReplica_autogen/mocs_compilation.cpp.obj CMakeFiles/BankingAppReplica.dir/main.cpp.obj CMakeFiles/BankingAppReplica.dir/mainwindow.cpp.obj CMakeFiles/BankingAppReplica.dir/accountcreationbox.cpp.obj CMakeFiles/BankingAppReplica.dir/forgotpassword.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Sql.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || BankingAppReplica_autogen BankingAppReplica_autogen_timestamp_deps
+build BankingAppReplica.exe: CXX_EXECUTABLE_LINKER__BankingAppReplica_Debug CMakeFiles/BankingAppReplica.dir/BankingAppReplica_autogen/mocs_compilation.cpp.obj CMakeFiles/BankingAppReplica.dir/main.cpp.obj CMakeFiles/BankingAppReplica.dir/mainwindow.cpp.obj CMakeFiles/BankingAppReplica.dir/accountcreationbox.cpp.obj CMakeFiles/BankingAppReplica.dir/forgotpassword.cpp.obj CMakeFiles/BankingAppReplica.dir/sendmoney.cpp.obj CMakeFiles/BankingAppReplica.dir/depositmoney.cpp.obj CMakeFiles/BankingAppReplica.dir/debitcard.cpp.obj | C$:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Sql.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a || BankingAppReplica_autogen BankingAppReplica_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.8.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Sql.a  C:/Qt/6.8.0/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  C:/Qt/6.8.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -184,7 +208,7 @@ build BankingAppReplica_autogen_timestamp_deps: phony
 #############################################
 # Utility command for BankingAppReplica_autogen
 
-build BankingAppReplica_autogen: phony CMakeFiles/BankingAppReplica_autogen BankingAppReplica_autogen/include/ui_mainwindow.h BankingAppReplica_autogen/include/ui_accountcreationbox.h BankingAppReplica_autogen/include/ui_forgotpassword.h BankingAppReplica_autogen/timestamp BankingAppReplica_autogen/mocs_compilation.cpp BankingAppReplica_autogen_timestamp_deps
+build BankingAppReplica_autogen: phony CMakeFiles/BankingAppReplica_autogen BankingAppReplica_autogen/include/ui_mainwindow.h BankingAppReplica_autogen/include/ui_accountcreationbox.h BankingAppReplica_autogen/include/ui_forgotpassword.h BankingAppReplica_autogen/include/ui_sendmoney.h BankingAppReplica_autogen/include/ui_depositmoney.h BankingAppReplica_autogen/include/ui_debitcard.h BankingAppReplica_autogen/timestamp BankingAppReplica_autogen/mocs_compilation.cpp BankingAppReplica_autogen_timestamp_deps
 
 
 #############################################
@@ -201,7 +225,7 @@ build BankingAppReplica_autogen/timestamp BankingAppReplica_autogen/mocs_compila
 #############################################
 # Phony custom command for CMakeFiles\BankingAppReplica_autogen
 
-build CMakeFiles/BankingAppReplica_autogen BankingAppReplica_autogen/include/ui_mainwindow.h BankingAppReplica_autogen/include/ui_accountcreationbox.h BankingAppReplica_autogen/include/ui_forgotpassword.h | ${cmake_ninja_workdir}CMakeFiles/BankingAppReplica_autogen ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_accountcreationbox.h ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_forgotpassword.h: phony BankingAppReplica_autogen/timestamp || BankingAppReplica_autogen_timestamp_deps
+build CMakeFiles/BankingAppReplica_autogen BankingAppReplica_autogen/include/ui_mainwindow.h BankingAppReplica_autogen/include/ui_accountcreationbox.h BankingAppReplica_autogen/include/ui_forgotpassword.h BankingAppReplica_autogen/include/ui_sendmoney.h BankingAppReplica_autogen/include/ui_depositmoney.h BankingAppReplica_autogen/include/ui_debitcard.h | ${cmake_ninja_workdir}CMakeFiles/BankingAppReplica_autogen ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_accountcreationbox.h ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_forgotpassword.h ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_sendmoney.h ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_depositmoney.h ${cmake_ninja_workdir}BankingAppReplica_autogen/include/ui_debitcard.h: phony BankingAppReplica_autogen/timestamp || BankingAppReplica_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

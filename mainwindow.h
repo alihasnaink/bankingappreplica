@@ -28,6 +28,8 @@ private:
     void openForgotPasswordBox();
     void logOut();
     int generateAccountNumber();
+    void cardinfo();
+    void opendepositmoney();
 
 };
 #endif // MAINWINDOW_H

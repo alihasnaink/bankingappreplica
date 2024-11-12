@@ -24,11 +24,11 @@ public:
     QLabel *logo;
     QLabel *label_5;
     QLabel *label_3;
-    QLineEdit *lineEdit_username_2;
-    QLineEdit *lineEdit_username_4;
+    QLineEdit *email_fp;
+    QLineEdit *password_fp;
     QLabel *label_6;
-    QLineEdit *lineEdit_username_5;
-    QPushButton *pushButton;
+    QLineEdit *cpassword_fp;
+    QPushButton *changePassword;
 
     void setupUi(QDialog *forgotPassword)
     {
@@ -51,33 +51,33 @@ public:
         label_3->setObjectName("label_3");
         label_3->setGeometry(QRect(90, 190, 231, 47));
         label_3->setFont(font);
-        lineEdit_username_2 = new QLineEdit(forgotPassword);
-        lineEdit_username_2->setObjectName("lineEdit_username_2");
-        lineEdit_username_2->setGeometry(QRect(90, 230, 331, 51));
+        email_fp = new QLineEdit(forgotPassword);
+        email_fp->setObjectName("email_fp");
+        email_fp->setGeometry(QRect(90, 230, 331, 51));
         QFont font1;
         font1.setPointSize(11);
-        lineEdit_username_2->setFont(font1);
-        lineEdit_username_2->setInputMethodHints(Qt::InputMethodHint::ImhEmailCharactersOnly);
-        lineEdit_username_2->setMaxLength(30);
-        lineEdit_username_4 = new QLineEdit(forgotPassword);
-        lineEdit_username_4->setObjectName("lineEdit_username_4");
-        lineEdit_username_4->setGeometry(QRect(90, 320, 331, 51));
-        lineEdit_username_4->setFont(font1);
-        lineEdit_username_4->setMaxLength(25);
-        lineEdit_username_4->setEchoMode(QLineEdit::EchoMode::Password);
+        email_fp->setFont(font1);
+        email_fp->setInputMethodHints(Qt::InputMethodHint::ImhEmailCharactersOnly);
+        email_fp->setMaxLength(30);
+        password_fp = new QLineEdit(forgotPassword);
+        password_fp->setObjectName("password_fp");
+        password_fp->setGeometry(QRect(90, 320, 331, 51));
+        password_fp->setFont(font1);
+        password_fp->setMaxLength(25);
+        password_fp->setEchoMode(QLineEdit::EchoMode::Password);
         label_6 = new QLabel(forgotPassword);
         label_6->setObjectName("label_6");
         label_6->setGeometry(QRect(90, 370, 131, 47));
         label_6->setFont(font);
-        lineEdit_username_5 = new QLineEdit(forgotPassword);
-        lineEdit_username_5->setObjectName("lineEdit_username_5");
-        lineEdit_username_5->setGeometry(QRect(90, 410, 331, 51));
-        lineEdit_username_5->setFont(font1);
-        lineEdit_username_5->setMaxLength(25);
-        lineEdit_username_5->setEchoMode(QLineEdit::EchoMode::Password);
-        pushButton = new QPushButton(forgotPassword);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(190, 480, 141, 51));
+        cpassword_fp = new QLineEdit(forgotPassword);
+        cpassword_fp->setObjectName("cpassword_fp");
+        cpassword_fp->setGeometry(QRect(90, 410, 331, 51));
+        cpassword_fp->setFont(font1);
+        cpassword_fp->setMaxLength(25);
+        cpassword_fp->setEchoMode(QLineEdit::EchoMode::Password);
+        changePassword = new QPushButton(forgotPassword);
+        changePassword->setObjectName("changePassword");
+        changePassword->setGeometry(QRect(190, 480, 141, 51));
 
         retranslateUi(forgotPassword);
 
@@ -91,7 +91,7 @@ public:
         label_5->setText(QCoreApplication::translate("forgotPassword", "New password", nullptr));
         label_3->setText(QCoreApplication::translate("forgotPassword", "Enter your registered email", nullptr));
         label_6->setText(QCoreApplication::translate("forgotPassword", "Confirm Password", nullptr));
-        pushButton->setText(QCoreApplication::translate("forgotPassword", "Change Password", nullptr));
+        changePassword->setText(QCoreApplication::translate("forgotPassword", "Change Password", nullptr));
     } // retranslateUi
 
 };

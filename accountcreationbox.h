@@ -20,6 +20,7 @@ public:
     QString getAccountType() const;
     QString getCardType() const;
     QString getFullname();
+    bool isUsernameOrEmailTaken(const QString &username, const QString &email);
 
 
 private slots:

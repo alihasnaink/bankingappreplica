@@ -94,7 +94,7 @@
        <number>25</number>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="createAccountButton">
       <property name="geometry">
        <rect>
         <x>380</x>
@@ -114,7 +114,7 @@
        <string>Create new account</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="loginButton">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -133,7 +133,7 @@
        <string>Login</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_2">
+     <widget class="QLabel" name="usernam_Label">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -152,7 +152,7 @@
        <string>Username</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="fpasswordButton">
       <property name="geometry">
        <rect>
         <x>440</x>
@@ -174,7 +174,7 @@
        <string>Forgot your password?</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="welcome_Label">
       <property name="geometry">
        <rect>
         <x>170</x>
@@ -193,7 +193,7 @@
        <string>Welcome back to your banking app!</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="password_Label">
       <property name="geometry">
        <rect>
         <x>180</x>
@@ -214,7 +214,7 @@
      </widget>
     </widget>
     <widget class="QWidget" name="page_3">
-     <widget class="QPushButton" name="logoutbutton">
+     <widget class="QPushButton" name="logoutButton">
       <property name="geometry">
        <rect>
         <x>630</x>
@@ -227,7 +227,7 @@
        <string>Log Out</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_4">
+     <widget class="QLabel" name="label_fullname">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -479,7 +479,7 @@
        <string>Balance</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_9">
+     <widget class="QLabel" name="label_balance">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -497,7 +497,7 @@
        <string>200,000 PKR</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_10">
+     <widget class="QLabel" name="label_accounttype">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -515,7 +515,7 @@
        <string>Savings Account</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_11">
+     <widget class="QLabel" name="label_cardtype">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -533,7 +533,7 @@
        <string>MasterCard Debit Card</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_12">
+     <widget class="QLabel" name="label_accountnumber">
       <property name="geometry">
        <rect>
         <x>20</x>
